@@ -13,3 +13,53 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ]0;/home/ruben/Documents/R/covid_venezuelaruben@ruben-lopez:~/Documents/R/covid_venezuela$ git add .
+]0;/home/ruben/Documents/R/covid_venezuelaruben@ruben-lopez:~/Documents/R/covid_venezuela$ git commit -m "Data wrangling and ploting Venezuela cases confirmed  covid-19"
+[master (root-commit) f71b577] Data wrangling and ploting Venezuela cases confirmed covid-19
+ 7 files changed, 138 insertions(+)
+ create mode 100644 .Rproj.user/41FDB106/console06/222A49C5
+ create mode 100644 .Rproj.user/41FDB106/console06/INDEX001
+ create mode 100644 .Rproj.user/41FDB106/sources/s-A78FCAA1/89F656CB
+ create mode 100644 .Rproj.user/41FDB106/sources/s-A78FCAA1/89F656CB-contents
+ create mode 100644 .Rproj.user/41FDB106/sources/s-A78FCAA1/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 covid_venezuela.Rproj
+]0;/home/ruben/Documents/R/covid_venezuelaruben@ruben-lopez:~/Documents/R/covid_venezuela$ git re[K[K[K[K[K[Kgit remote add origin https://github.com/rubencholop/Venezuelan_19.giit
+]0;/home/ruben/Documents/R/covid_venezuelaruben@ruben-lopez:~/Documents/R/covid_venezuela$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;/home/ruben/Documents/R/covid_venezuelaruben@ruben-lopez:~/Documents/R/covid_venezuela$ git push --set-upstream origin master
+Username for 'https://github.com': rubencholop
+Password for 'https://rubencholop@github.com': 
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 2.60 KiB | 886.00 KiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0)
+To https://github.com/rubencholop/Venezuelan_19.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;/home/ruben/Documents/R/covid_venezuelaruben@ruben-lopez:~/Documents/R/covid_venezuela$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/41FDB106/console06/222A49C5[m
+	[31mmodified:   .Rproj.user/41FDB106/sources/s-A78FCAA1/89F656CB[m
+	[31mmodified:   .Rproj.user/41FDB106/sources/s-A78FCAA1/89F656CB-contents[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/41FDB106/console06/222A49C5.env[m
+	[31m.Rproj.user/41FDB106/sources/prop/[m
+	[31m.Rproj.user/shared/notebooks/paths[m
+	[31mmain.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;/home/ruben/Documents/R/covid_venezuelaruben@ruben-lopez:~/Documents/R/covid_venezuela$ git add .
